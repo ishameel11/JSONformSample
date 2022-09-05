@@ -1,0 +1,163 @@
+[
+    {
+        "question": "What is your name ?",
+        "type": "text",
+        "optional": "true",
+        "answer": "Isha"
+    },
+    {
+        "question": "Date of Birth?",
+        "type": "datepicker",
+        "optional": "true",
+        "answer": "01-04-1997"
+    },
+    {
+        "question": "Gender",
+        "type": "radio",
+        "optional": "true",
+        "answer": "Female",
+        "options": [
+            {
+                "label": "Male",
+                "value": "Male"
+            },
+            {
+                "label": "Female",
+                "value": "Female"
+            }
+        ]
+    },
+    {
+        "question": "Status",
+        "type": "radio",
+        "optional": "true",
+        "answer": "Unmarried",
+        "options": [
+            {
+                "label": "married",
+                "value": "Married"
+            },
+            {
+                "label": "unmarried",
+                "value": "Unmarried"
+            }
+        ]
+    },
+    {
+        "question": "Nationality",
+        "type": "select",
+        "optional": "true",
+        "id": "1",
+        "answer": "India",
+        "options": [
+            {
+                "label": "India",
+                "value": "India"
+            },
+            {
+                "label": "America",
+                "value": "america"
+            },
+            {
+                "label": "Australia",
+                "value": "australia"
+            }
+        ]
+    },
+    {
+        "question": "Which is your favourite game ?",
+        "type": "checkbox",
+        "optional": "false",
+        "answer": "Dancing",
+        "options": [
+            {
+                "label": "Dancing",
+                "value": "Dancing"
+            },
+            {
+                "label": "Cricket",
+                "value": "cricket"
+            },
+            {
+                "label": "Singing",
+                "value": "singing"
+            }
+        ]
+    },
+    {
+        "question": "Education",
+        "type": "select",
+        "optional": "true",
+        "id": "2",
+        "answer": "'Graduate'",
+        "options": [
+            {
+                "label": "10th",
+                "value": "10th"
+            },
+            {
+                "label": "12th",
+                "value": "12th"
+            },
+            {
+                "label": "Graduate",
+                "value": "Graduate"
+            },
+            {
+                "label": "Post Graduate",
+                "value": "Post Graduate"
+            }
+        ]
+    },
+    {
+        "question": "About yourself ?",
+        "type": "textarea",
+        "optional": "true",
+        "answer": "'Hello, my name is Isha Meel.'"
+    },
+    {
+        "type": "matrix",
+        "name": "Quality",
+        "title": "Please indicate if you agree or disagree",
+        "columns": [
+            {
+                "value": 1,
+                "text": "Strongly Disagree"
+            },
+            {
+                "value": 2,
+                "text": "Disagree"
+            },
+            {
+                "value": 3,
+                "text": "Neutral"
+            },
+            {
+                "value": 4,
+                "text": "Agree"
+            },
+            {
+                "value": 5,
+                "text": "Strongly Agree"
+            }
+        ],
+        "rows": [
+            {
+                "value": "affordable",
+                "text": "Product is affordable"
+            },
+            {
+                "value": "does what it claims",
+                "text": "Product does what it claims"
+            },
+            {
+                "value": "better then others",
+                "text": "Product is better than other products on the market"
+            },
+            {
+                "value": "easy to use",
+                "text": "Product is easy to use"
+            }
+        ]
+    }
+]
